@@ -1,17 +1,490 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Отели</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <div class="container"></div>
+      <div class="container header_container">
+        <a class="header_logo_link" href="#">
+          <img
+            class="header_logo"
+            src="img/logo.jpg"
+            alt="Лагуна-сеть отелей"
+          />
+        </a>
+        <a href="tel:+74953225448" class="contacts-item-link"
+          >+7&nbsp;495 322-54-48
+        </a>
+        <a class="account" href="#">Личный кабинет</a>
+        <nav class="header-nav">
+          <ul class="header-list">
+            <li class="header-liat-item">
+              <a href="#about_us" class="header-link"> О&nbsp;нас </a>
+            </li>
+            <li class="header-liat-item">
+              <a href="#services" class="header-link"> Услуги </a>
+            </li>
+            <li class="header-liat-item">
+              <a href="#advantages" class="header-link"> Приемущества </a>
+            </li>
+            <li class="header-liat-item">
+              <a href="#siting" class="header-link"> Размещение </a>
+            </li>
+            <li class="header-liat-item">
+              <a href="#contacts" class="header-link"> Контакты </a>
+            </li>
+          </ul>
+          <button class="btn header-btn">Хочу тур</button>
+          <button class="btn header-btn">Обратный звонок</button>
+        </nav>
+      </div>
     </header>
-    <main class="main"></main>
+
+    <main class="main">
+      <section id="special_offers" class="special_offers">
+        <div class="container offers_container">
+          <h3 class="content_title special_offers_title">Спецпредложения</h3>
+          <div class="div_offers">
+            <ul class="offers_list">
+              <li class="offers_item offer_item_1">
+                <article class="offer__article">
+                  <ul class="offers_descr offers_descr_1">
+                    <li class="offer_descr">
+                      <h4 class="offer-title offer-title_1">
+                        Мальдивские острова
+                      </h4>
+                    </li>
+                    <li class="offer_descr">
+                      <span class="offer-text offer-text_1"
+                        >от&nbsp;55&nbsp;000&nbsp;₽</span
+                      >
+                    </li>
+                    <li class="offer_descr">
+                      <a href="#" class="offer-link">Подробнее</a>
+                    </li>
+                  </ul>
+                </article>
+              </li>
+              <li class="offers_item offer_item_3">
+                <article class="offer__article">
+                  <ul class="offers_descr offers_descr_1">
+                    <li class="offer_descr">
+                      <h4 class="offer-title offer-title_1">
+                        Горящий <br />тур на&nbsp;остров Крит
+                      </h4>
+                    </li>
+                    <li class="offer_descr">
+                      <span class="offer-text offer-text_1"
+                        >от&nbsp;30&nbsp;000&nbsp;₽</span
+                      >
+                    </li>
+                    <li class="offer_descr">
+                      <a href="#" class="offer-link">Подробнее</a>
+                    </li>
+                  </ul>
+                </article>
+              </li>
+            </ul>
+            <ul class="offers_list">
+              <li class="offers_item offer_item_2">
+                <article class="offer__article">
+                  <ul class="offers_descr offers_descr_2">
+                    <li class="offer_descr">
+                      <h4 class="offer-title offer-title_2">
+                        Номера категории <br />
+                        люкс
+                      </h4>
+                    </li>
+                    <li class="offer_descr">
+                      <span class="offer-text offer-text_2"
+                        >от&nbsp;5&nbsp;000&nbsp;₽</span
+                      >
+                    </li>
+                    <li class="offer_descr">
+                      <a href="#" class="offer-link">Подробнее</a>
+                    </li>
+                  </ul>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="about_us" class="about_us">
+        <div class="container about_us_container">
+          <h1 class="content_title about_us_title">О&nbsp;нас</h1>
+          <p class="about__descr">
+            Идейные соображения высшего порядка, а&nbsp;также сложившаяся
+            структура организации влечёт за&nbsp;собой процесс внедрения
+            и&nbsp;модернизации системы обучения кадров, соответствует насущным
+            потребностям. Идейные соображения высшего порядка, а&nbsp;также
+            дальнейшее развитие различных форм деятельности представляет собой
+            интересный эксперимент проверки системы обучения кадров,
+            соответствует насущным потребностям. Равным образом сложившаяся
+            структура организации требуют определения и&nbsp;уточнения
+            существенных финансовых и&nbsp;административных условий.
+          </p>
+        </div>
+      </section>
+
+      <section id="services" class="services">
+        <div class="container services_container">
+          <h2 class="content_title services_title">Услуги</h2>
+          <ul class="services_list">
+            <li class="services_item services_item_1">
+              <ul class="services_descr_ul">
+                <li class="service">
+                  <h4 class="services_link_title">
+                    <a href="#" class="services_link"
+                      >Эксклюзивное обслуживание</a
+                    >
+                  </h4>
+                </li>
+                <li class="service">
+                  <p class="services_descr">
+                    Равным образом постоянный количественный рост и&nbsp;сфера
+                    нашей активности
+                  </p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="services_item services_item_2">
+              <ul class="services_descr_ul">
+                <li class="service">
+                  <h4 class="services_link_title">
+                    <a href="#" class="services_link">Аренда банкетных залов</a>
+                  </h4>
+                </li>
+                <li class="service">
+                  <p class="services_descr">
+                    Значимость этих проблем настолько очевидна, что дальнейшее
+                    развитие различных форм
+                  </p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="services_item services_item_3">
+              <ul class="services_descr_ul">
+                <li class="service">
+                  <h4 class="services_link_title">
+                    <a href="#" class="services_link"
+                      >Сауны, бассейны, бани, фитнес-залы</a
+                    >
+                  </h4>
+                </li>
+                <li class="service">
+                  <p class="services_descr">
+                    Не&nbsp;следует, однако забывать, что начало повседневной
+                    работы по&nbsp;формированию позиции
+                  </p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="services_item services_item_4">
+              <ul class="services_descr_ul">
+                <li class="service">
+                  <h4 class="services_link_title">
+                    <a href="#" class="services_link"
+                      >Охраняемые автомобильные стоянки</a
+                    >
+                  </h4>
+                </li>
+                <li class="service">
+                  <p class="services_descr">
+                    Не&nbsp;следует, однако забывать, что начало повседневной
+                    работы по&nbsp;формированию позиции
+                  </p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="advantages" class="advantages">
+        <div class="container advantages_container">
+          <h2 class="content_title advantages_title">Преимущества</h2>
+          <ul class="advantages_list">
+            <li class="advantages_item">
+              <p class="advantages_descr ad_descr_1">
+                Идейные соображения высшего порядка, а&nbsp;также постоянный
+                количественный рост
+              </p>
+            </li>
+
+            <li class="advantages_item">
+              <p class="advantages_descr ad_descr_2">
+                Значимость этих проблем настолько очевидна, что вопрос остаётся
+                открытым
+              </p>
+            </li>
+
+            <li class="advantages_item">
+              <p class="advantages_descr ad_descr_3">
+                Таким образом реализация плановых заданий играет важную роль для
+                понимания
+              </p>
+            </li>
+
+            <li class="advantages_item">
+              <p class="advantages_descr ad_descr_4">
+                Повседневная практика показывает, что сложившаяся структура
+                организации
+              </p>
+            </li>
+
+            <li class="advantages_item">
+              <p class="advantages_descr ad_descr_5">
+                Равным образом рамки и&nbsp;место обучения кадров способствует
+                подготовки сотрудника
+              </p>
+            </li>
+
+            <li class="advantages_item">
+              <p class="advantages_descr ad_descr_6">
+                Консультация с&nbsp;активом влечёт за&nbsp;собой процесс
+                внедрения услуг нашего сервиса
+              </p>
+            </li>
+
+            <li class="advantages_item">
+              <p class="advantages_descr ad_descr_7">
+                Повседневная практика показывает, что дальнейшее развитие
+                различных
+              </p>
+            </li>
+
+            <li class="advantages_item">
+              <p class="advantages_descr ad_descr_8">
+                Значимость этого настолько очевидна, что консультация наших
+                экспертов помогает
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="siting" class="siting">
+        <div class="container siting_container">
+          <h2 class="content_title siting_title">Размещение</h2>
+          <ul class="siting_list">
+            <li class="siting_item siting_item_1">
+              <article class="siting__article">
+                <img class="siting-img" src="img/siting-1.jpg" alt="Отель" />
+                <div class="siting__text">
+                  <div class="siting__top">
+                    <div class="siting__price">
+                      <span class="siting__price-gray">от</span>
+                      4&nbsp;698
+                      <span class="siting__price-dark">/ ночь</span>
+                    </div>
+                    <div class="siting__stars">
+                      <img src="img/full-star.svg" alt="Рейтинг 4 из 5" />
+                      <img src="img/full-star.svg" alt="" />
+                      <img src="img/full-star.svg" alt="" />
+                      <img src="img/full-star.svg" alt="" />
+                      <img src="img/star.svg" alt="" />
+                    </div>
+                  </div>
+                  <h3 class="siting__title">Lagoona espa&ntilde;ola</h3>
+                  <p class="siting__descr">Барселона, Испания</p>
+                  <button class="btn siting__btn">Номера</button>
+                </div>
+              </article>
+            </li>
+            <li class="siting_item siting_item_2">
+              <article class="siting__article">
+                <img class="siting-img" src="img/siting-2.jpg" alt="Отель" />
+                <div class="siting__text">
+                  <div class="siting__top">
+                    <div class="siting__price">
+                      <span class="siting__price-gray">от</span>
+                      5&nbsp;148
+                      <span class="siting__price-dark">/ ночь</span>
+                    </div>
+                    <div class="siting__stars">
+                      <img src="img/full-star.svg" alt="Рейтинг 4 из 5" />
+                      <img src="img/full-star.svg" alt="" />
+                      <img src="img/full-star.svg" alt="" />
+                      <img src="img/full-star.svg" alt="" />
+                      <img src="img/star.svg" alt="" />
+                    </div>
+                  </div>
+                  <h3 class="siting__title">Lagoona son t&iacute;picas</h3>
+                  <p class="siting__descr">Барселона, Испания</p>
+                  <button class="btn siting__btn">Номера</button>
+                </div>
+              </article>
+            </li>
+            <li class="siting_item siting_item_3">
+              <article class="siting__article">
+                <img class="siting-img" src="img/siting-3.jpg" alt="Отель" />
+                <div class="siting__text">
+                  <div class="siting__top">
+                    <div class="siting__price">
+                      <span class="siting__price-gray">от</span>
+                      6&nbsp;254
+                      <span class="siting__price-dark">/ ночь</span>
+                    </div>
+                    <div class="siting__stars">
+                      <img src="img/full-star.svg" alt="Рейтинг 5 из 5" />
+                      <img src="img/full-star.svg" alt="" />
+                      <img src="img/full-star.svg" alt="" />
+                      <img src="img/full-star.svg" alt="" />
+                      <img src="img/full-star.svg" alt="" />
+                    </div>
+                  </div>
+                  <h3 class="siting__title">Lagoona de&nbsp;la&nbsp;guerra</h3>
+                  <p class="siting__descr">Барселона, Испания</p>
+                  <button class="btn siting__btn">Номера</button>
+                </div>
+              </article>
+            </li>
+            <li class="siting_item siting_item_4">
+              <article class="siting__article">
+                <img class="siting-img" src="img/siting-4.jpg" alt="Отель" />
+                <div class="siting__text">
+                  <div class="siting__top">
+                    <div class="siting__price">
+                      <span class="siting__price-gray">от</span>
+                      6&nbsp;320
+                      <span class="siting__price-dark">/ ночь</span>
+                    </div>
+                    <div class="siting__stars">
+                      <img src="img/full-star.svg" alt="Рейтинг 5 из 5" />
+                      <img src="img/full-star.svg" alt="" />
+                      <img src="img/full-star.svg" alt="" />
+                      <img src="img/full-star.svg" alt="" />
+                      <img src="img/full-star.svg" alt="" />
+                    </div>
+                  </div>
+                  <h3 class="siting__title">Lagoona mentira piadosa</h3>
+                  <p class="siting__descr">Барселона, Испания</p>
+                  <button class="btn siting__btn">Номера</button>
+                </div>
+              </article>
+            </li>
+            <li class="siting_item siting_item_5">
+              <article class="siting__article">
+                <img class="siting-img" src="img/siting-5.jpg" alt="Отель" />
+                <div class="siting__text">
+                  <div class="siting__top">
+                    <div class="siting__price">
+                      <span class="siting__price-gray">от</span>
+                      6&nbsp;457
+                      <span class="siting__price-dark">/ ночь</span>
+                    </div>
+                    <div class="siting__stars">
+                      <img src="img/full-star.svg" alt="Рейтинг 4 из 5" />
+                      <img src="img/full-star.svg" alt="" />
+                      <img src="img/full-star.svg" alt="" />
+                      <img src="img/full-star.svg" alt="" />
+                      <img src="img/star.svg" alt="" />
+                    </div>
+                  </div>
+                  <h3 class="siting__title">
+                    Lagoona empujar la&nbsp;creatividad
+                  </h3>
+                  <p class="siting__descr">Барселона, Испания</p>
+                  <button class="btn siting__btn">Номера</button>
+                </div>
+              </article>
+            </li>
+            <li class="siting_item siting_item_6">
+              <article class="siting__article">
+                <img class="siting-img" src="img/siting-6.jpg" alt="Отель" />
+                <div class="siting__text">
+                  <div class="siting__top">
+                    <div class="siting__price">
+                      <span class="siting__price-gray">от</span>
+                      6&nbsp;320
+                      <span class="siting__price-dark">/ ночь</span>
+                    </div>
+                    <div class="siting__stars">
+                      <img src="img/full-star.svg" alt="Рейтинг 4 из 5" />
+                      <img src="img/full-star.svg" alt="" />
+                      <img src="img/full-star.svg" alt="" />
+                      <img src="img/full-star.svg" alt="" />
+                      <img src="img/star.svg" alt="" />
+                    </div>
+                  </div>
+                  <h3 class="siting__title">Lagoona el&nbsp;retorno</h3>
+                  <p class="siting__descr">Барселона, Испания</p>
+                  <button class="btn siting__btn">Номера</button>
+                </div>
+              </article>
+            </li>
+            <li class="siting_item siting_item_7">
+              <article class="siting__article">
+                <img class="siting-img" src="img/siting-7.jpg" alt="Отель" />
+                <div class="siting__text">
+                  <div class="siting__top">
+                    <div class="siting__price">
+                      <span class="siting__price-gray">от</span>
+                      6&nbsp;505
+                      <span class="siting__price-dark">/ ночь</span>
+                    </div>
+                    <div class="siting__stars">
+                      <img src="img/full-star.svg" alt="Рейтинг 5 из 5" />
+                      <img src="img/full-star.svg" alt="" />
+                      <img src="img/full-star.svg" alt="" />
+                      <img src="img/full-star.svg" alt="" />
+                      <img src="img/full-star.svg" alt="" />
+                    </div>
+                  </div>
+                  <h3 class="siting__title">Lagoona mentira piadosa</h3>
+                  <p class="siting__descr">Барселона, Испания</p>
+                  <button class="btn siting__btn">Номера</button>
+                </div>
+              </article>
+            </li>
+            <li class="siting_item siting_item_8">
+              <article class="siting__article">
+                <img class="siting-img" src="img/siting-8.jpg" alt="Отель" />
+                <div class="siting__text">
+                  <div class="siting__top">
+                    <div class="siting__price">
+                      <span class="siting__price-gray">от</span>
+                      6&nbsp;824
+                      <span class="siting__price-dark">/ ночь</span>
+                    </div>
+                    <div class="siting__stars">
+                      <img src="img/full-star.svg" alt="Рейтинг 4 из 5" />
+                      <img src="img/full-star.svg" alt="" />
+                      <img src="img/full-star.svg" alt="" />
+                      <img src="img/full-star.svg" alt="" />
+                      <img src="img/star.svg" alt="" />
+                    </div>
+                  </div>
+                  <h3 class="siting__title">
+                    Lagoona suerte sigui&oacute; siempre
+                  </h3>
+                  <p class="siting__descr">Барселона, Испания</p>
+                  <button class="btn siting__btn">Номера</button>
+                </div>
+              </article>
+            </li>
+
+            <li class="siting_item siting_item_9">
+              <a href="#" class="siting_more__btn">Посмотреть все варианты</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- <section id="choose_a_tour" class="choose_a_tour"></section>
+      <section id="contacts" class="contacts"></section> -->
+    </main>
+
     <footer class="footer">
       <div class="container"></div>
     </footer>
