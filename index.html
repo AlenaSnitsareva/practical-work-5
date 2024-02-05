@@ -10,108 +10,92 @@
   <body>
     <header class="header">
       <div class="container header_container">
-        <a class="header_logo_link" href="#">
-          <img
-            class="header_logo"
-            src="img/logo.jpg"
-            alt="Лагуна-сеть отелей"
-          />
-        </a>
-        <a href="tel:+74953225448" class="contacts-item-link"
-          >+7&nbsp;495 322-54-48
-        </a>
-        <a class="account" href="#">Личный кабинет</a>
-        <nav class="header-nav">
-          <ul class="header-list">
-            <li class="header-liat-item">
-              <a href="#about_us" class="header-link"> О&nbsp;нас </a>
-            </li>
-            <li class="header-liat-item">
-              <a href="#services" class="header-link"> Услуги </a>
-            </li>
-            <li class="header-liat-item">
-              <a href="#advantages" class="header-link"> Приемущества </a>
-            </li>
-            <li class="header-liat-item">
-              <a href="#siting" class="header-link"> Размещение </a>
-            </li>
-            <li class="header-liat-item">
-              <a href="#contacts" class="header-link"> Контакты </a>
-            </li>
-          </ul>
-          <button class="btn header-btn">Хочу тур</button>
-          <button class="btn header-btn">Обратный звонок</button>
-        </nav>
+        <div class="header-top">
+          <a class="header_logo_link" href="#">
+            <img
+              class="header_logo"
+              src="img/logo.jpg"
+              alt="Лагуна-сеть отелей"
+            />
+          </a>
+          <a href="tel:+74953225448" class="contacts-item-link"
+            >+7&nbsp;495 322-54-48
+          </a>
+          <a class="account" href="#">Личный кабинет</a>
+        </div>
+        <div class="header-bottom">
+          <nav class="header-nav">
+            <ul class="header-list">
+              <li class="header-liat-item">
+                <a href="#about_us" class="header-link"> О&nbsp;нас </a>
+              </li>
+              <li class="header-liat-item">
+                <a href="#services" class="header-link"> Услуги </a>
+              </li>
+              <li class="header-liat-item">
+                <a href="#advantages" class="header-link"> Приемущества </a>
+              </li>
+              <li class="header-liat-item">
+                <a href="#siting" class="header-link"> Размещение </a>
+              </li>
+              <li class="header-liat-item">
+                <a href="#contacts" class="header-link"> Контакты </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header-btns">
+            <a href="#choose_a_tour" class="btn header-btn"> Хочу тур </a>
+            <button class="btn header-btn">Обратный звонок</button>
+          </div>
+        </div>
       </div>
     </header>
 
     <main class="main">
       <section id="special_offers" class="special_offers">
         <div class="container offers_container">
-          <h3 class="content_title special_offers_title">Спецпредложения</h3>
+          <h2 class="content_title special_offers_title">Спецпредложения</h2>
           <div class="div_offers">
-            <ul class="offers_list">
-              <li class="offers_item offer_item_1">
-                <article class="offer__article">
-                  <ul class="offers_descr offers_descr_1">
-                    <li class="offer_descr">
-                      <h4 class="offer-title offer-title_1">
-                        Мальдивские острова
-                      </h4>
-                    </li>
-                    <li class="offer_descr">
-                      <span class="offer-text offer-text_1"
-                        >от&nbsp;55&nbsp;000&nbsp;₽</span
-                      >
-                    </li>
-                    <li class="offer_descr">
-                      <a href="#" class="offer-link">Подробнее</a>
-                    </li>
-                  </ul>
-                </article>
-              </li>
-              <li class="offers_item offer_item_3">
-                <article class="offer__article">
-                  <ul class="offers_descr offers_descr_1">
-                    <li class="offer_descr">
-                      <h4 class="offer-title offer-title_1">
-                        Горящий <br />тур на&nbsp;остров Крит
-                      </h4>
-                    </li>
-                    <li class="offer_descr">
-                      <span class="offer-text offer-text_1"
-                        >от&nbsp;30&nbsp;000&nbsp;₽</span
-                      >
-                    </li>
-                    <li class="offer_descr">
-                      <a href="#" class="offer-link">Подробнее</a>
-                    </li>
-                  </ul>
-                </article>
-              </li>
-            </ul>
-            <ul class="offers_list">
-              <li class="offers_item offer_item_2">
-                <article class="offer__article">
-                  <ul class="offers_descr offers_descr_2">
-                    <li class="offer_descr">
-                      <h4 class="offer-title offer-title_2">
-                        Номера категории <br />
-                        люкс
-                      </h4>
-                    </li>
-                    <li class="offer_descr">
-                      <span class="offer-text offer-text_2"
-                        >от&nbsp;5&nbsp;000&nbsp;₽</span
-                      >
-                    </li>
-                    <li class="offer_descr">
-                      <a href="#" class="offer-link">Подробнее</a>
-                    </li>
-                  </ul>
-                </article>
-              </li>
-            </ul>
+            <div class="offers_item">
+              <article class="offer_item_1">
+                <div class="offer__article-1">
+                  <h3 class="offer-title offer-title_1">
+                    Мальдивские <br />
+                    острова
+                  </h3>
+                  <span class="offer-text offer-text_1"
+                    >от&nbsp;55&nbsp;000&nbsp;₽</span
+                  >
+                  <a href="#" class="offer-link">Подробнее</a>
+                </div>
+              </article>
+              <article class="offer_item_3">
+                <div class="offer__article-1">
+                  <h3 class="offer-title offer-title_1">
+                    Горящий <br />тур на&nbsp;остров Крит
+                  </h3>
+                  <span class="offer-text offer-text_1"
+                    >от&nbsp;30&nbsp;000&nbsp;₽</span
+                  >
+                  <a href="#" class="offer-link">Подробнее</a>
+                </div>
+              </article>
+            </div>
+            <div class="offers_item">
+              <article class="offer_item_2">
+                <div class="offer__article-2">
+                  <h3 class="offer-title offer-title_2">
+                    Номера <br />
+                    категории <br />
+                    люкс
+                  </h3>
+                  <span class="offer-text offer-text_2"
+                    >от&nbsp;5&nbsp;000&nbsp;₽</span
+                  >
+                  <a href="#" class="offer-link">Подробнее</a>
+                </div>
+              </article>
+            </div>
           </div>
         </div>
       </section>
@@ -136,77 +120,56 @@
       <section id="services" class="services">
         <div class="container services_container">
           <h2 class="content_title services_title">Услуги</h2>
-          <ul class="services_list">
-            <li class="services_item services_item_1">
-              <ul class="services_descr_ul">
-                <li class="service">
-                  <h4 class="services_link_title">
-                    <a href="#" class="services_link"
-                      >Эксклюзивное обслуживание</a
-                    >
-                  </h4>
-                </li>
-                <li class="service">
-                  <p class="services_descr">
-                    Равным образом постоянный количественный рост и&nbsp;сфера
-                    нашей активности
-                  </p>
-                </li>
-              </ul>
-            </li>
+          <div class="services_list">
 
-            <li class="services_item services_item_2">
-              <ul class="services_descr_ul">
-                <li class="service">
-                  <h4 class="services_link_title">
-                    <a href="#" class="services_link">Аренда банкетных залов</a>
-                  </h4>
-                </li>
-                <li class="service">
-                  <p class="services_descr">
-                    Значимость этих проблем настолько очевидна, что дальнейшее
-                    развитие различных форм
-                  </p>
-                </li>
-              </ul>
-            </li>
+            <div class="services_item services_item_1">
+              <h3 class="services_link_title">
+                <a href="#" class="services_link">Эксклюзивное обслуживание</a>
+              </h3>
+              <p class="services_descr">
+                Равным образом постоянный количественный рост и&nbsp;сфера нашей
+                активности
+              </p>
+            </div>
 
-            <li class="services_item services_item_3">
-              <ul class="services_descr_ul">
-                <li class="service">
-                  <h4 class="services_link_title">
-                    <a href="#" class="services_link"
-                      >Сауны, бассейны, бани, фитнес-залы</a
-                    >
-                  </h4>
-                </li>
-                <li class="service">
-                  <p class="services_descr">
-                    Не&nbsp;следует, однако забывать, что начало повседневной
-                    работы по&nbsp;формированию позиции
-                  </p>
-                </li>
-              </ul>
-            </li>
+            <div class="services_item services_item_2">
+              <h3 class="services_link_title">
+                <a href="#" class="services_link">Аренда банкетных залов</a>
+              </h3>
 
-            <li class="services_item services_item_4">
-              <ul class="services_descr_ul">
-                <li class="service">
-                  <h4 class="services_link_title">
-                    <a href="#" class="services_link"
-                      >Охраняемые автомобильные стоянки</a
-                    >
-                  </h4>
-                </li>
-                <li class="service">
-                  <p class="services_descr">
-                    Не&nbsp;следует, однако забывать, что начало повседневной
-                    работы по&nbsp;формированию позиции
-                  </p>
-                </li>
-              </ul>
-            </li>
-          </ul>
+              <p class="services_descr">
+                Значимость этих проблем настолько очевидна, что дальнейшее
+                развитие различных форм
+              </p>
+            </div>
+
+            <div class="services_item services_item_3">
+              <h3 class="services_link_title">
+                <a href="#" class="services_link"
+                  >Сауны, бассейны, бани, фитнес-залы</a
+                >
+              </h3>
+
+              <p class="services_descr">
+                Не&nbsp;следует, однако забывать, что начало повседневной работы
+                по&nbsp;формированию позиции
+              </p>
+            </div>
+
+            <div class="services_item services_item_4">
+              <h3 class="services_link_title">
+                <a href="#" class="services_link"
+                  >Охраняемые автомобильные стоянки</a
+                >
+              </h3>
+
+              <p class="services_descr">
+                Не&nbsp;следует, однако забывать, что начало повседневной работы
+                по&nbsp;формированию позиции
+              </p>
+            </div>
+            
+          </div>
         </div>
       </section>
 
@@ -481,8 +444,8 @@
         </div>
       </section>
 
-      <!-- <section id="choose_a_tour" class="choose_a_tour"></section>
-      <section id="contacts" class="contacts"></section> -->
+      <section id="choose_a_tour" class="choose_a_tour"></section>
+      <section id="contacts" class="contacts"></section>
     </main>
 
     <footer class="footer">
